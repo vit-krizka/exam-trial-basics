@@ -6,15 +6,15 @@ namespace Pirates
     {
         class Pirate
         {
-            private string name;
-            private bool hasWoodenLeg;
-            private int gold;
+            public string Name;
+            public bool HasWoodenLeg;
+            public int Gold;
 
             public Pirate(string name, bool hasWoodenLeg, int gold)
             {
-                this.name = name;
-                this.hasWoodenLeg = hasWoodenLeg;
-                this.gold = gold;
+                Name = name;
+                HasWoodenLeg = hasWoodenLeg;
+                Gold = gold;
             }
         }
 
