@@ -18,7 +18,7 @@
 - [Seconds](seconds/Seconds.ts)
 - [Count A-s](countas/CountAs.ts)
 - [Pirates](pirates/Pirates.ts)
-- [Box](box/Box.ts
+- [Box](box/Box.ts)
 
 ### Acceptance criteria
 The application is accepted if:
