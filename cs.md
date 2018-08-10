@@ -13,12 +13,11 @@
 
 
 # Tasks
-## 1-4. Complete the following tasks: (~180 mins)
+## 1-4. Complete the following tasks: (~120 mins)
 
 - [Seconds](seconds/Seconds.cs)
 - [Count A-s](countas/CountAs.cs)
-- [Pirates](pirates/Pirates.cs)
-- [Box](box/Box.cs)
+- [Symmetric Matrix](symmetric-matrix/SymmetricMatrix.cs)
 
 ### Acceptance criteria
 The application is accepted if:
