@@ -13,7 +13,7 @@
 
 
 # Tasks
-## 1-4. Complete the following tasks: (~120 mins)
+## 1-4. Complete the following tasks: (~240 mins)
 
 - [Seconds](seconds/Seconds.cs)
 - [Count A-s](countas/CountAs.cs)
@@ -22,13 +22,13 @@
 ### Acceptance criteria
 The application is accepted if:
 - The solution works according to specification [1p each]
-- The solution follows [styleguide](https://github.com/greenfox-academy/teaching-materials/blob/master/styleguide/cs.md) [1p]
+- The solution follows [style guide](https://github.com/greenfox-academy/teaching-materials/blob/master/styleguide/cs.md) [1p]
 - Has proper error handling where the specification says it [1p each]
 - Has the correct loops, methods, filters [1p each]
 - The code is clean, without unnecessary repetition, and with descriptive names [1p each]
 - You commit frequently with descriptive commit messages [1p]
 
-## 5. Question time! (~15 mins) [2p]
+## 5. Question time! (~15 mins) [1p]
 
-### How can you generate a random number? [2p]
+### How can you generate a random number? [1p]
 #### Your answer: [add your answer here]
