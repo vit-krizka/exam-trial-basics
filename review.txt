@@ -1,0 +1,169 @@
+Fleet fleet;
+// Create a fleet of things to have this output:
+// 1. [ ] Get milk
+// 2. [ ] Remove the obstacles
+// 3. [x] Stand up
+// 4. [x] Eat lunch
+
+Thing getMilk("Get milk");
+Thing removeObstacles("Remove the obstacles");
+Thing standUp("Stand up");
+Thing eatLunch("Eat Lunch");
+
+standUp.complete();
+eatLunch.complete();
+
+fleet.add(Thing("Get milk").complete());
+fleet.add(removeObstacles);
+fleet.add(standUp);
+fleet.add(eatLunch);
+
+
+C++98
+C++03
+
+C++11
+C++14
+C++17
+C++20
+
+
+int& function(String asd){
+return 5;
+}
+
+
+class Car{
+
+
+Car(int gasAmount, int capacity) {
+     _gasAmount = gasAmount;
+     _capacity = capacity;
+}
+
+private:
+  int _gasAmount;
+  int _capacity;
+
+};
+
+Car::Car(int gasAmount, int capacity, const std::string& book) : _gasAmount(gasAmount), _capacity(capacity), _book(book) {}
+
+int main()
+{
+
+  int gasAmount;
+  gasAmount = 0;
+  
+  int gasAmount = 0;
+  
+  Akarmi akarmi;
+  akarmi.function();
+
+return 0;
+}
+
+
+class Akarmi
+{
+public:
+
+const Akarmi& function(const std::string& szoveg) const;
+
+private:
+    int _a;
+    int _b;
+    std::string s;
+};
+
+
+
+int number = boys.size() < girls.size() ? boys.size() : girls.size();
+
+for(int i = 0; i < number; i++){
+    couples.push_back(boys[i]);
+    couples.push_back(girls[i]);
+}
+
+for(int i = 0; i < number; i++){
+    couples.push_back(boys[i]);
+    couples.push_back(girls[i]);
+}
+
+
+temp = dominoes[j];
+dominoes[j] = dominoes[i+1];
+dominoes[i+1] = temp;
+
+std::swap(dominoes[j], dominoes[i+1]);
+
+
+
+#include <iostream>
+
+// We have bunnies standing in a line, numbered 1, 2, ... The odd bunnies
+// (1, 3, ..) have the normal 2 ears. The even bunnies (2, 4, ..) we'll say
+// have 3 ears, because they each have a raised foot. Recursively return the
+// number of "ears" in the bunny line 1, 2, ... n (without loops or multiplication).
+// Odd - 2
+
+int bunnyEars(int bunny) {
+    if (bunny < 1) {
+        return 0;
+    } else if (bunny % 2 != 0) {
+
+        return 2 + bunnyEars(bunny - 1);
+
+    } else {
+        return 3 + bunnyEars(bunny - 1);
+    }
+}
+
+int main() {
+    std::cout << bunnyEars(3) << std::endl;
+
+    return 0;
+
+}
+
+
+
+if (bunny < 1) 
+    return 0;
+
+if (bunny % 2 != 0) 
+    return 2 + bunnyEars(bunny - 1);
+
+return 3 + bunnyEars(bunny - 1);
+
+
+
+try {
+    if (divident == 0) {
+        throw std::string("Can't divide by 0");
+    }
+    std::cout << 10 / divident << std::endl;
+} catch (const std::string& exeption) {
+   std::cout << "Fail! " << exception <<std::endl;
+   myVector.at(25);     
+}
+
+
+
+std::string containsSeven(const std::vector<int>& numbers)
+{
+    for(int i = 0; i < numbers.size(); i++)
+    {
+        if(numbers[i] == 7){
+            return "Hoorray";
+        }
+    }
+    
+    return "Noooooo";
+}
+
+
+std::string containsSeven_stdfind(const std::vector<int>& numbers)
+{
+    return std::find(numbers.begin(), numbers.end(), 7) != numbers.end() ? "Hooray" : "Noooo";
+}

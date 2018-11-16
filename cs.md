@@ -17,7 +17,8 @@
 
 - [Seconds](seconds/Seconds.cs)
 - [Count A-s](countas/CountAs.cs)
-- [Symmetric Matrix](symmetric-matrix/SymmetricMatrix.cs)
+- [Pirates](pirates/Pirates.cs)
+- [Box](box/Box.cs)
 
 ### Acceptance criteria
 The application is accepted if:
