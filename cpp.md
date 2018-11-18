@@ -15,15 +15,15 @@
 # Tasks
 ## 1-4. Complete the following tasks: (~240 mins)
 
-- [Seconds](seconds/Seconds.java)
-- [Count A-s](countas/CountAs.java)
-- [Pirates](pirates/Pirates.java)
-- [Box](box/Box.java)
+- [Seconds](seconds/seconds.cpp)
+- [Count A-s](countas/count-as.cpp)
+- [Pirates](pirates/pirates.cpp)
+- [Box](box/box.cpp)
 
 ### Acceptance criteria
 The application is accepted if:
 - The solution works according to specification [1p each]
-- The solution follows [style guide](https://github.com/greenfox-academy/teaching-materials/blob/master/styleguide/java.md) [1p]
+- The solution follows [style guide](https://github.com/greenfox-academy/teaching-materials/blob/master/styleguide/cpp.md) [1p]
 - Has proper error handling where the specification says it [1p each]
 - Has the correct loops, methods, filters [1p each]
 - The code is clean, without unnecessary repetition, and with descriptive names [1p each]
