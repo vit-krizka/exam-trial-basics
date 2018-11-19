@@ -2,9 +2,7 @@ import java.util.*;
 
 public class PirateCounter{
 
-  public static void main(String... args){
-    
-    class Pirate {
+  static class Pirate {
         String name;
         boolean hasWoodenLeg;
         int gold;
@@ -15,6 +13,8 @@ public class PirateCounter{
             this.gold = gold;
         }
     }
+  
+  public static void main(String... args){
     
     ArrayList<Pirate> pirates = new ArrayList<>();
 
