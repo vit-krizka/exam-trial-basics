@@ -2,19 +2,20 @@ import java.util.*;
 
 public class PirateCounter{
 
-  class Pirate {
-    String name;
-    boolean hasWoodenLeg;
-    int gold;
-
-    Pirate(String name, boolean hasWoodenLeg, int gold) {
-      this.name = name;
-      this.hasWoodenLeg = hasWoodenLeg;
-      this.gold = gold;
-    }
-  }
-
   public static void main(String... args){
+    
+    class Pirate {
+        String name;
+        boolean hasWoodenLeg;
+        int gold;
+
+        Pirate(String name, boolean hasWoodenLeg, int gold) {
+            this.name = name;
+            this.hasWoodenLeg = hasWoodenLeg;
+            this.gold = gold;
+        }
+    }
+    
     ArrayList<Pirate> pirates = new ArrayList<>();
 
     // Given this list...
