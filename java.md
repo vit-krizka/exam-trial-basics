@@ -17,7 +17,7 @@
 
 - [Seconds](seconds/Seconds.java)
 - [Count A-s](countas/CountAs.java)
-- [Pirates](pirates/Pirates.java)
+- [Pirates](pirates/PirateCounter.java)
 - [Box](box/Box.java)
 
 ### Acceptance criteria
