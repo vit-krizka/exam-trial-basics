@@ -21,7 +21,8 @@
 ## Symmetric matrix
 
 ```
-Create a function named `isSymmetric` that takes an n×n integer matrix (two dimensional array) as parameter and returns true, if is that matrix is symmetric (diagonally from top-left to bottom-right) or false if it is not.
+Create a function named `isSymmetric` that takes an n×n integer matrix (two dimensional array) as parameter 
+and returns true, if is that matrix is symmetric (diagonally from top-left to bottom-right) or false if it is not.
 ```
 
 Example 1:
@@ -59,8 +60,8 @@ false
 ## Most Common Letter
 
 ```
-// Write a function that takes a fileName as a parameter.
-// Return the most common letter of the file's content.
+Write a function that takes a fileName as a parameter.
+Return the most common letter of the file's content.
 ```
 
 Example
