@@ -57,11 +57,11 @@ Output:
 false
 ```
 
-## Most Common Letter
+## Most Common Character
 
 ```
 Write a function that takes a fileName as a parameter.
-Return the most common letter of the file's content.
+Return the most common character of the file's content.
 ```
 
 Example
@@ -90,6 +90,7 @@ Write a program which can store pirates in a ship.
  
  Ship:
 
+ - It should have a list of pirates.
  - You must be able to add a new pirate to the ship.
  - It should have a method called getPoorPirates which returns a list of names containing the pirates that
     - have wooden leg and have less than 15 golds
@@ -102,6 +103,6 @@ Write a program which can store pirates in a ship.
 
 *type your answer here*
 
-### What is a ternary operator? How is it work? [1p]
+### What is a ternary operator? How does it work? [1p]
 
 *type your answer here*
