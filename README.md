@@ -60,7 +60,7 @@ false
 ## Most Common Character
 
 ```
-Write a function that takes a fileName as a parameter.
+Write a function that takes a filename as a parameter.
 Return the most common character of the file's content.
 ```
 
@@ -81,9 +81,9 @@ Write a program which can store pirates in a ship.
 
  Pirate:
 
- - It should have the following fields: name, gold, and hasWoodenLeg.
+ - It should have the following fields: name, gold (which is 15 by default) and hasWoodenLeg;
  - It should have a method that returns a string which depends on the hasWoodenLeg field.
- - If it's true, than the string should look like this:
+ - If it's true, then the string should look like this:
     - Hello I'm Jack. I have wooden leg, and 20 golds.
  - If it's false:
     - Hello I'm Jack. I still have my real leg, and 20 golds. 
@@ -92,9 +92,11 @@ Write a program which can store pirates in a ship.
 
  - It should have a list of pirates.
  - You must be able to add a new pirate to the ship.
- - It should have a method called getPoorPirates which returns a list of names containing the pirates that
-    - have wooden leg and have less than 15 golds
  - It should have a method called getGolds which returns the golds of all the pirates have.
+ - It should have a method called getDeadPirates which 
+    - remove the pirates from the list that have wooden leg and have less than 15 golds
+    - and return a list of names containing the pirates that you killed before
+
 ```
 
 ## Question time! [2p]
