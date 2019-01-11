@@ -21,7 +21,7 @@
 ## Symmetric matrix
 
 ```
-Create a function named `isSymmetric` that takes an n×n integer matrix (two dimensional array) as parameter and returns true, if is that matrix is symmetric (diagonally from top-left to bottom-right) or false if it is not.
+Create a function named `isSymmetric` that takes an n×n integer matrix (two dimensional array) as parameter and returns true, if that matrix is symmetric (diagonally from top-left to bottom-right) or false if it is not.
 ```
 
 Example 1:
@@ -56,11 +56,11 @@ Output:
 false
 ```
 
-## Most Common Letter
+## Most Common Character
 
 ```
-// Write a function that takes a fileName as a parameter.
-// Return the most common letter of the file's content.
+// Write a function that takes a filename as a parameter.
+// Return the most common character of the file's content.
 ```
 
 Example
@@ -80,9 +80,11 @@ Write a program which can store pirates in a ship.
 
  Pirate:
 
- - It should have the following fields: name, gold, and hasWoodenLeg.
+ - It should have the following fields: name, gold, hasWoodenLeg and HP which is default 10.
+ - It should have a `work()` method that increase the gold by one, and decrease the HP by one.
+ - It should have a `party()` method that increase the HP by one.
  - It should have a method that returns a string which depends on the hasWoodenLeg field.
- - If it's true, than the string should look like this:
+ - If it's true, then the string should look like this:
     - Hello I'm Jack. I have wooden leg, and 20 golds.
  - If it's false:
     - Hello I'm Jack. I still have my real leg, and 20 golds. 
@@ -90,9 +92,12 @@ Write a program which can store pirates in a ship.
  Ship:
 
  - You must be able to add a new pirate to the ship.
- - It should have a method called getPoorPirates which returns a list of names containing the pirates that
+ - You should create the following methods:
+ - `getPoorPirates()` which returns a list of names containing the pirates that
     - have wooden leg and have less than 15 golds
- - It should have a method called getGolds which returns the golds of all the pirates have.
+ - `getGolds()` which returns the golds of all the pirates have.
+ - `lastDayOnTheShip()` which calls the pirates `party()` method twice.
+ - `preparationForBattle()` which calls the pirates `work()` method five times and than the ships `lastDayOnTheShip()` method once.
 ```
 
 ## Question time! [2p]
@@ -101,6 +106,6 @@ Write a program which can store pirates in a ship.
 
 *type your answer here*
 
-### What is a ternary operator? How is it work? [1p]
+### What is a ternary operator? How does it work? [1p]
 
 *type your answer here*
