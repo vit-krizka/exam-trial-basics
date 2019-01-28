@@ -60,8 +60,8 @@ false
 ## Most Common Character
 
 ```
-// Write a function that takes a filename as a parameter.
-// Return the most common character of the file's content.
+Write a function that takes a filename as a parameter.
+Return the most common character of the file's content.
 ```
 
 Example
@@ -81,28 +81,34 @@ Write a program which can store pirates in a ship.
 
  Pirate:
 
- - It should have the following fields: name, gold, hasWoodenLeg and HP which is default 10.
+ - It should have the following fields: name, gold, hasWoodenLeg, isCaptain and HP which is default 10.
  - You should create the following methods:
- - `work()` which increase the gold by one, and decrease the HP by one.
- - `party()` which increase the HP by one.
- - the `info()` method returns a string which depends on the hasWoodenLeg field.
+
+ - if a pirate is a captain:
+    - `work()` which increase the gold by 10, and decrease the HP by 5.
+    - `party()` which increase the HP by 10.
+ - if not a captain:
+    - `work()` which increase the gold by one, and decrease the HP by one.
+    - `party()` which increase the HP by one.
+
+  - the `info()` method returns a string which depends on the hasWoodenLeg field. 
  - If it's true, then the string should look like this:
     - Hello I'm Jack. I have wooden leg, and 20 golds.
  - If it's false:
     - Hello I'm Jack. I still have my real leg, and 20 golds. 
- 
+  
  Ship:
 
  - It should have a list of pirates.
- - You must be able to add a new pirate to the ship.  
+ - You must be able to add new pirates to the ship. It should have only one captain!
  - You should create the following methods:
  - `getPoorPirates()` which returns a list of names containing the pirates that
     - have wooden leg and have less than 15 golds
  - `getGolds()` which returns the golds of all the pirates have.
- - `lastDayOnTheShip()` which calls the pirates `party()` method twice.
+ - `lastDayOnTheShip()` which calls the pirates `party()`.
  - `preparationForBattle()` which calls 
-    - the pirates `work()` method five times 
-    - than the ships `lastDayOnTheShip()` method once.
+    - the pirates `work()` method five times
+    - then the ships `lastDayOnTheShip()` method.
 
 ```
 
