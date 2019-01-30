@@ -31,8 +31,8 @@ Example 1:
 
 ```
 [
-  [1, 0, 1]
-  [0, 2, 2]
+  [1, 0, 1],
+  [0, 2, 2],
   [1, 2, 5]
 ]
 ```
@@ -47,8 +47,8 @@ Example 2:
 
 ```
 [
-  [7, 7, 7]
-  [6, 5, 7]
+  [7, 7, 7],
+  [6, 5, 7],
   [1, 2, 1]
 ]
 ```
@@ -64,7 +64,7 @@ false
 ```
 Write a function that takes a filename as a parameter.
 Return the most common character of the file's content.
-If the file doesn't exists return a string:
+If the file doesn't exists throw an exception:
 "File does not exists!"
 ```
 
@@ -108,8 +108,8 @@ Write a program which can store pirates in a ship.
  - `getPoorPirates()` which returns a list of names containing the pirates that
     - has wooden leg and have less than 15 golds
  - `getGolds()` which returns the golds of all the pirates have.
- - `lastDayOnTheShip()` which calls the pirates `party()`.
- - `preparationForBattle()` which calls 
+ - `lastDayOnTheShip()` which calls the pirates' `party()`.
+ - `prepareForBattle()` which calls 
     - the pirates `work()` method five times
     - then the ships `lastDayOnTheShip()` method.
 
