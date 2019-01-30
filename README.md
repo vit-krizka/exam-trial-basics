@@ -22,9 +22,11 @@
 
 ```
 Create a function named `isSymmetric` 
-that takes an n×n integer matrix (two dimensional array/list) as parameter
-and returns true, if that matrix is symmetric
-(diagonally from top-left to bottom-right) or false if it is not.
+that takes an n×n integer matrix (two dimensional array/list) as a parameter
+and returns true if the matrix is symmetric
+or false if it is not.
+(Symmetric means it has identical values along its diagonal axis from top-left to bottom-right,
+as in the first example)
 ```
 
 Example 1:
@@ -64,8 +66,8 @@ false
 ```
 Write a function that takes a filename as a parameter.
 Return the most common character of the file's content.
-If the file doesn't exists throw an exception:
-"File does not exists!"
+If the file does not exist throw the following exception:
+"File does not exist!"
 ```
 
 Example
@@ -85,20 +87,21 @@ Write a program which can store pirates in a ship.
 
  Pirate:
  
- - A pirate has name, gold, health point which is default 10. A pirate might be a captain and maybe has wooden leg.
+ - A pirate has a name, an amount of gold and health points, the default value of which is 10.
+ - A pirate might be a captain and may have a wooden leg.
  - You must create the following methods:
 
  - if a pirate is a captain:
-    - `work()` which increase the gold by 10, and decrease the HP by 5.
-    - `party()` which increase the HP by 10.
- - if not a captain:
-    - `work()` which increase the gold by one, and decrease the HP by one.
-    - `party()` which increase the HP by one.
+    - `work()` which increases the amount of gold possessed by that pirate by 10 and decrease the HP by 5.
+    - `party()` which increases the HP by 10.
+ - if the pirate is not a captain:
+    - `work()` which increases the amount of gold by 1 and decreases the HP by 1.
+    - `party()` which increases the HP by 1.
 
- - if the pirate has wooden leg, then the string must look like this:
-    - Hello I'm Jack. I have wooden leg, and 20 golds.
+ - if the pirate has a wooden leg, then the string that is returned by the function must look like this:
+    - Hello, I'm Jack. I have a wooden leg and 20 golds.
  -  If not:
-    - Hello I'm Jack. I still have my real leg, and 20 golds. 
+    - Hello, I'm Jack. I still have my real legs and 20 golds. 
   
  Ship:
 
@@ -106,12 +109,12 @@ Write a program which can store pirates in a ship.
  - You must be able to add new pirates to the ship. It must have only one captain!
  - You must create the following methods:
  - `getPoorPirates()` which returns a list of names containing the pirates that
-    - has wooden leg and have less than 15 golds
- - `getGolds()` which returns the golds of all the pirates have.
- - `lastDayOnTheShip()` which calls the pirates' `party()`.
+    - have a wooden leg and have less than 15 golds
+ - `getGolds()` which returns the sum of gold owned by the pirates of that particular ship
+ - `lastDayOnTheShip()` which calls the pirates' `party()` method.
  - `prepareForBattle()` which calls 
-    - the pirates `work()` method five times
-    - then the ships `lastDayOnTheShip()` method.
+    - the pirates' `work()` method 5 times
+    - then the ship's `lastDayOnTheShip()` method.
 
 ```
 
