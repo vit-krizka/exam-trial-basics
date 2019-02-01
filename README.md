@@ -66,7 +66,7 @@ false
 ```
 Write a function that takes a filename as a parameter.
 Return the most common character of the file's content.
-If the file does not exist throw the following exception:
+If the file does not exist throw an exception with the following message:
 "File does not exist!"
 ```
 
@@ -115,7 +115,6 @@ Write a program which can store pirates in a ship.
  - `prepareForBattle()` which calls 
     - the pirates' `work()` method 5 times
     - then the ship's `lastDayOnTheShip()` method.
-
 ```
 
 ## Question time!
