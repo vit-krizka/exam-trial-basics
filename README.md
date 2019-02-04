@@ -97,7 +97,8 @@ Write a program which can store pirates in a ship.
  - if the pirate is not a captain:
     - `work()` which increases the amount of gold by 1 and decreases the HP by 1.
     - `party()` which increases the HP by 1.
-
+ 
+ - `toString()` method:
  - if the pirate has a wooden leg, then the string that is returned by the function must look like this:
     - Hello, I'm Jack. I have a wooden leg and 20 golds.
  -  If not:
