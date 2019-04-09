@@ -15,19 +15,17 @@
 - **Don't just copy-paste** your answers and solutions, use your own words instead
 - **Don't push your work** to GitHub until your mentor announces that the time is up
 
-
 # Tasks
 
 ## Symmetric matrix
 
-```
 Create a function named `isSymmetric` 
 that takes an n×n integer matrix (two dimensional array/list) as a parameter
 and returns true if the matrix is symmetric
 or false if it is not.
-(Symmetric means it has identical values along its diagonal axis from top-left to bottom-right,
-as in the first example)
-```
+
+Symmetric means it has identical values along its diagonal axis from top-left to bottom-right,
+as in the first example.
 
 Example 1:
 
@@ -61,14 +59,13 @@ Output:
 false
 ```
 
-## Most Common Character
+## Most Common Characters
 
-```
 Write a function that takes a filename as a parameter.
-Return the most common character of the file's content.
+Return the 2 most common characters and their occurrences in the file's content.
+
 If the file does not exist throw an exception with the following message:
 "File does not exist!"
-```
 
 Example
 
@@ -76,16 +73,18 @@ Example
 
 Output
 
-```
-e
+```js
+{
+  "e": 6,
+  "l": 4
+}
 ```
 
 ## Pirates
-
-``` 
+ 
 Write a program which can store pirates in a ship.
 
- Pirate:
+### Pirate
  
  - A pirate has a name, an amount of gold and health points, the default value of which is 10.
  - A pirate might be a captain and may have a wooden leg.
@@ -104,7 +103,7 @@ Write a program which can store pirates in a ship.
  -  If not:
     - Hello, I'm Jack. I still have my real legs and 20 golds. 
   
- Ship:
+### Ship
 
  - It should have a list of pirates.
  - You must be able to add new pirates to the ship. It must have only one captain!
@@ -116,7 +115,6 @@ Write a program which can store pirates in a ship.
  - `prepareForBattle()` which calls 
     - the pirates' `work()` method 5 times
     - then the ship's `lastDayOnTheShip()` method.
-```
 
 ## Question time!
 
