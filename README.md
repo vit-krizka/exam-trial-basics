@@ -62,7 +62,7 @@ false
 ## Most Common Characters
 
 Write a function that takes a filename as a parameter.
-Return the 2 most common characters and their occurences of the file's content.
+Return the 2 most common characters and their occurrences in the file's content.
 
 If the file does not exist throw an exception with the following message:
 "File does not exist!"
