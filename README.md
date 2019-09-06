@@ -116,12 +116,34 @@ Write a program which can store pirates in a ship.
     - the pirates' `work()` method 5 times
     - then the ship's `lastDayOnTheShip()` method.
 
-## Question time!
+## Command line exercise
 
-### How can you generate a random number?
+- Take a look at this directory structure:
 
-*type your answer here*
+```text
+projects
+ |--program
+ |   |--.git
+ |   |--assets
+ |   |   |--data.md
+ |   |   |--picture_1.png
+ |   |   |--picture_3.jpg
+ |   |   └--picture_2.jpg
+ |   └--data.txt
+ └--exam
+     |--data.txt
+     └--images
+```
 
-### What is a ternary operator? How does it work?
+- Your task is to write commands in the correct order 
+  from the directory given below.
+- Do it with less commands without chaining them together.
+- The staging area is empty.
+- Your current directory is `projects/`
+  1. Delete both **data.txt**
+  1. Move any type of image files from `program/assets/` to `exam/images/`
+  1. Commit the changes with the following message "delete txt files and move image files"
+
+- Solution:
 
 *type your answer here*
