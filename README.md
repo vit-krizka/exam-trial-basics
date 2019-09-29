@@ -127,17 +127,18 @@ projects
  |   |--assets
  |   |   |--data.md
  |   |   |--picture_1.png
- |   |   |--picture_3.jpg
  |   |   └--picture_2.jpg
  |   └--data.txt
  └--exam
      |--data.txt
      └--images
+         └--picture_3.jpg
 ```
 
 - Your task is to write commands in the correct order 
   from the directory given below.
 - Do it with less commands without chaining them together.
+- You can try your commands in the given `cli-exercise` directory
 - The staging area is empty.
 - Your current directory is `projects/`
   1. Delete both **data.txt**
