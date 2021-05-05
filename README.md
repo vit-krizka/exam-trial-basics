@@ -86,8 +86,10 @@ Write a program which can store pirates in a ship.
 
 ### Pirate
  
- - A pirate has a name, an amount of gold and health points, the default value of which is 10.
- - A pirate might be a captain and may have a wooden leg.
+ - A pirate has a name (`name`), an amount of gold (`goldAmount`) and health points (`healthPoints`), the default value of which is 10.
+ - Pirates can be only created by defining their names
+ - Pirates start with 0 amount of gold
+ - A pirate might be a captain and may have a wooden leg (`hasWoodenLeg`)
  - You must create the following methods:
 
  - if a pirate is a captain:
