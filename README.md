@@ -110,6 +110,7 @@ Write a program which can store pirates in a ship.
  - It should have a list of pirates.
  - You must be able to add new pirates to the ship. It must have only one captain!
  - You must create the following methods:
+ - `getCrewSize()` returns the number of pirates on the ship
  - `getPoorPirates()` which returns a list of names containing the pirates that
     - have a wooden leg and have less than 15 golds
  - `getGolds()` which returns the sum of gold owned by the pirates of that particular ship
