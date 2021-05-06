@@ -68,7 +68,7 @@ false
 Write a function named `getTwoMostCommonCharacters` that takes a filename as a parameter, and returns the 2 most common characters and their occurrences in the file's content.
 
 - Java: return with a Map
-- JavaScript: return with an object
+- TypeScript/JavaScript: return with an object
 - C#: return with a Dictionary
 - Python: return with a dict
 
