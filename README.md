@@ -15,6 +15,10 @@
 - **Don't just copy-paste** your answers and solutions, use your own words instead
 - **Don't push your work** to GitHub until your mentor announces that the time is up
 
+### Java
+
+- Put every class in the `com.gfa.exam` package
+
 # Tasks
 
 ## Symmetric matrix
