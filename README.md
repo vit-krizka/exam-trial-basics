@@ -61,17 +61,21 @@ false
 
 ## Most Common Characters
 
-Write a function that takes a filename as a parameter.
-Return the 2 most common characters and their occurrences in the file's content.
+Write a function named `getTwoMostCommonCharacters` that takes a filename as a parameter, and returns the 2 most common characters and their occurrences in the file's content.
+
+Java: return with a Map
+JavaScript: return with an object
+C#: return with a Dictionary
+Python: return with a dict
 
 If the file does not exist throw an exception with the following message:
 "File does not exist!"
 
-Example
+### Example
 
 [Example file can be found here](./countchar.txt)
 
-Output
+### Output
 
 ```js
 {
