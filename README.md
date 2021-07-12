@@ -19,6 +19,10 @@
 
 - Put every class in the `com.gfa.exam` package
 
+### TypeScript/JavaScript
+
+- Export every function and class you create
+
 # Tasks
 
 ## Symmetric matrix
