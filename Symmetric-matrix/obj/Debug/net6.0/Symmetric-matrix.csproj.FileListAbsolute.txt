@@ -1,0 +1,15 @@
+/Users/vitkrizka/greenfox/exam-trial-basics/Symmetric-matrix/bin/Debug/net6.0/Symmetric-matrix
+/Users/vitkrizka/greenfox/exam-trial-basics/Symmetric-matrix/bin/Debug/net6.0/Symmetric-matrix.deps.json
+/Users/vitkrizka/greenfox/exam-trial-basics/Symmetric-matrix/bin/Debug/net6.0/Symmetric-matrix.runtimeconfig.json
+/Users/vitkrizka/greenfox/exam-trial-basics/Symmetric-matrix/bin/Debug/net6.0/Symmetric-matrix.dll
+/Users/vitkrizka/greenfox/exam-trial-basics/Symmetric-matrix/bin/Debug/net6.0/Symmetric-matrix.pdb
+/Users/vitkrizka/greenfox/exam-trial-basics/Symmetric-matrix/obj/Debug/net6.0/Symmetric-matrix.csproj.AssemblyReference.cache
+/Users/vitkrizka/greenfox/exam-trial-basics/Symmetric-matrix/obj/Debug/net6.0/Symmetric-matrix.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitkrizka/greenfox/exam-trial-basics/Symmetric-matrix/obj/Debug/net6.0/Symmetric-matrix.AssemblyInfoInputs.cache
+/Users/vitkrizka/greenfox/exam-trial-basics/Symmetric-matrix/obj/Debug/net6.0/Symmetric-matrix.AssemblyInfo.cs
+/Users/vitkrizka/greenfox/exam-trial-basics/Symmetric-matrix/obj/Debug/net6.0/Symmetric-matrix.csproj.CoreCompileInputs.cache
+/Users/vitkrizka/greenfox/exam-trial-basics/Symmetric-matrix/obj/Debug/net6.0/Symmetric-matrix.dll
+/Users/vitkrizka/greenfox/exam-trial-basics/Symmetric-matrix/obj/Debug/net6.0/refint/Symmetric-matrix.dll
+/Users/vitkrizka/greenfox/exam-trial-basics/Symmetric-matrix/obj/Debug/net6.0/Symmetric-matrix.pdb
+/Users/vitkrizka/greenfox/exam-trial-basics/Symmetric-matrix/obj/Debug/net6.0/Symmetric-matrix.genruntimeconfig.cache
+/Users/vitkrizka/greenfox/exam-trial-basics/Symmetric-matrix/obj/Debug/net6.0/ref/Symmetric-matrix.dll
