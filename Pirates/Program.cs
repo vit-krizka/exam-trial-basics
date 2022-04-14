@@ -4,26 +4,27 @@
     {
         public static void Main(string[] args)
         {
-            Pirate pirateOne = new Pirate("John");
-            Pirate pirateTwo = new Pirate("Jim");
-            Captain captain = new Captain("Terry");
-            Captain captainTwo = new Captain("Will");
+            //EXAMPLE:
 
-            captain.HasWoodenLeg = true;
+            //Pirate pirateOne = new Pirate("John");
+            //Pirate pirateTwo = new Pirate("Jim");
+            //Captain captain = new Captain("Terry");
+            //Captain captainTwo = new Captain("Will");
 
-            captain.Work();
+            //captain.HasWoodenLeg = true;
 
-            Console.WriteLine(captain.toString());
+            //captain.Work();
 
-            Ship ship = new Ship();
+            //Console.WriteLine(captain.toString());
 
-            ship.Add(pirateOne);
-            ship.Add(pirateTwo);
-            ship.Add(captain);
-            ship.Add(captainTwo);
+            //Ship ship = new Ship();
 
-            Console.WriteLine(ship.getCrewSize());
+            //ship.Add(pirateOne);
+            //ship.Add(pirateTwo);
+            //ship.Add(captain);
+            //ship.Add(captainTwo);
 
+            //Console.WriteLine(ship.getCrewSize());
         }
     }
 }

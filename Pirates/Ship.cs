@@ -25,6 +25,18 @@ namespace Pirates
 			return crew.Count;
 		}
 
+        public int getGolds()
+        {
+            int sumGold = 0;
+
+            foreach (var item in crew)
+            {
+                sumGold += item.GoldAmount;
+            }
+
+            return sumGold;
+        }
+
         public List<Pirate> getPoorPirates()
         {
             List<Pirate> poorPirates = new List<Pirate> { };
