@@ -13,23 +13,19 @@ namespace MostCommonCharacters
 
             Dictionary<char, int> allLetters = CountLetters(text);
 
-            //POKUS:
-
-
-            //vypsání Dictionary
+            //vypsání Dictionary allLetters
             foreach (KeyValuePair<char, int> kvp in allLetters)
             {
                 Console.WriteLine("Key: {0}, Value: {1}", kvp.Key, kvp.Value);
             }
 
-            //Dictionary<char, int> firstLetter = getTwoMostCommonCharacters(allLetters);
-
-            //foreach (KeyValuePair<char, int> kvp in firstLetter)
-            //{
-            //    Console.WriteLine("Key: {0}, Value: {1}", kvp.Key, kvp.Value);
-            //}
+            //hledání nejčatějšího - zatím jen takto do konzole
+            Console.WriteLine();
+            Console.Write("The most common chars is ");
+            getMostCommonCharacters(allLetters);
         }
 
+        //metoda, která vytvoří list se všemi znaky a jejich počty
         public static Dictionary<char, int> CountLetters(string input)
         {
             Dictionary<char, int> output = new Dictionary<char, int> { };
@@ -53,58 +49,16 @@ namespace MostCommonCharacters
             return output;
         }
 
-
-        //public static Dictionary<char, int> getTwoMostCommonCharacters(Dictionary<char, int> input)
-        //{
-        //    Dictionary<char, int> output = new Dictionary<char, int> { };
-
-        //    int valueOfMaxValue;
-        //    char keyOfMaxValue = 'a';
-
-        //    valueOfMaxValue = input.Keys.Max();
-
-        //    foreach (var item in input)
-        //    {
-        //        if (item.Value == valueOfMaxValue)
-        //        {
-        //            keyOfMaxValue = item.Key;
-        //        }
-        //    }
-
-        //    output.Add(keyOfMaxValue, valueOfMaxValue);
-
-        //    return output;
-        //}
-
-        public static Dictionary<char, int> getTwoMostCommonCharacters(Dictionary<char, int> input)
+        //metoda, která najde nejčastější znak
+        public static void getMostCommonCharacters(Dictionary<char, int> input)
         {
-            Dictionary<char, int> output = new Dictionary<char, int> { };
-
-            int valueOfMaxValue = 0;
-            char keyOfMaxValue;
-            string chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-            int maxValue = 0;
-
-            for (int i = 0; i < chars.Length; i++)
+            foreach (var item in input)
             {
-                try
+                if (item.Value == input.Values.Max())
                 {
-                    if (input[chars[i]] > valueOfMaxValue)
-                    {
-                        valueOfMaxValue = input[chars[i]];
-                        keyOfMaxValue = chars[i];
-                    }
-                }
-                catch
-                {
-
+                    Console.WriteLine(item.Key);
                 }
             }
-
-            output.Add(keyOfMaxValue, valueOfMaxValue);
-
-            return output;
         }
     }
 }

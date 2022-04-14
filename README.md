@@ -162,4 +162,11 @@ projects
 
 - Solution:
 
-*type your answer here*
+pwd
+rm program/data.txt
+rm exam/data.txt
+mv program/assets/picture_1.png ./exam/images
+git status
+git add .
+git commit -m „delete txt files and move image files"
+
