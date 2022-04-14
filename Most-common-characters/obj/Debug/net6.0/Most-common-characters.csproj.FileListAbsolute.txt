@@ -1,0 +1,15 @@
+/Users/vitkrizka/greenfox/exam-trial-basics/Most-common-characters/bin/Debug/net6.0/Most-common-characters
+/Users/vitkrizka/greenfox/exam-trial-basics/Most-common-characters/bin/Debug/net6.0/Most-common-characters.deps.json
+/Users/vitkrizka/greenfox/exam-trial-basics/Most-common-characters/bin/Debug/net6.0/Most-common-characters.runtimeconfig.json
+/Users/vitkrizka/greenfox/exam-trial-basics/Most-common-characters/bin/Debug/net6.0/Most-common-characters.dll
+/Users/vitkrizka/greenfox/exam-trial-basics/Most-common-characters/bin/Debug/net6.0/Most-common-characters.pdb
+/Users/vitkrizka/greenfox/exam-trial-basics/Most-common-characters/obj/Debug/net6.0/Most-common-characters.csproj.AssemblyReference.cache
+/Users/vitkrizka/greenfox/exam-trial-basics/Most-common-characters/obj/Debug/net6.0/Most-common-characters.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitkrizka/greenfox/exam-trial-basics/Most-common-characters/obj/Debug/net6.0/Most-common-characters.AssemblyInfoInputs.cache
+/Users/vitkrizka/greenfox/exam-trial-basics/Most-common-characters/obj/Debug/net6.0/Most-common-characters.AssemblyInfo.cs
+/Users/vitkrizka/greenfox/exam-trial-basics/Most-common-characters/obj/Debug/net6.0/Most-common-characters.csproj.CoreCompileInputs.cache
+/Users/vitkrizka/greenfox/exam-trial-basics/Most-common-characters/obj/Debug/net6.0/Most-common-characters.dll
+/Users/vitkrizka/greenfox/exam-trial-basics/Most-common-characters/obj/Debug/net6.0/refint/Most-common-characters.dll
+/Users/vitkrizka/greenfox/exam-trial-basics/Most-common-characters/obj/Debug/net6.0/Most-common-characters.pdb
+/Users/vitkrizka/greenfox/exam-trial-basics/Most-common-characters/obj/Debug/net6.0/Most-common-characters.genruntimeconfig.cache
+/Users/vitkrizka/greenfox/exam-trial-basics/Most-common-characters/obj/Debug/net6.0/ref/Most-common-characters.dll
