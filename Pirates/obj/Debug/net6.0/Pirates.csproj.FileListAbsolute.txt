@@ -1,0 +1,15 @@
+/Users/vitkrizka/greenfox/exam-trial-basics/Pirates/bin/Debug/net6.0/Pirates
+/Users/vitkrizka/greenfox/exam-trial-basics/Pirates/bin/Debug/net6.0/Pirates.deps.json
+/Users/vitkrizka/greenfox/exam-trial-basics/Pirates/bin/Debug/net6.0/Pirates.runtimeconfig.json
+/Users/vitkrizka/greenfox/exam-trial-basics/Pirates/bin/Debug/net6.0/Pirates.dll
+/Users/vitkrizka/greenfox/exam-trial-basics/Pirates/bin/Debug/net6.0/Pirates.pdb
+/Users/vitkrizka/greenfox/exam-trial-basics/Pirates/obj/Debug/net6.0/Pirates.csproj.AssemblyReference.cache
+/Users/vitkrizka/greenfox/exam-trial-basics/Pirates/obj/Debug/net6.0/Pirates.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitkrizka/greenfox/exam-trial-basics/Pirates/obj/Debug/net6.0/Pirates.AssemblyInfoInputs.cache
+/Users/vitkrizka/greenfox/exam-trial-basics/Pirates/obj/Debug/net6.0/Pirates.AssemblyInfo.cs
+/Users/vitkrizka/greenfox/exam-trial-basics/Pirates/obj/Debug/net6.0/Pirates.csproj.CoreCompileInputs.cache
+/Users/vitkrizka/greenfox/exam-trial-basics/Pirates/obj/Debug/net6.0/Pirates.dll
+/Users/vitkrizka/greenfox/exam-trial-basics/Pirates/obj/Debug/net6.0/refint/Pirates.dll
+/Users/vitkrizka/greenfox/exam-trial-basics/Pirates/obj/Debug/net6.0/Pirates.pdb
+/Users/vitkrizka/greenfox/exam-trial-basics/Pirates/obj/Debug/net6.0/Pirates.genruntimeconfig.cache
+/Users/vitkrizka/greenfox/exam-trial-basics/Pirates/obj/Debug/net6.0/ref/Pirates.dll
